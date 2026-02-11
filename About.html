@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Future Company Ltd</title>
+     <style>
+
+
+/* FORM LOGIN CONTAINER */
+.form.login {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 100px 4000px rgb(128, 0, 117);
+    margin-left: 400PX;
+
+}
+
+/* Form title */
+.form.login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #510250;
+}
+
+/* Labels */
+.form.login label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Inputs & selects */
+.form.login input,
+.form.login select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 50px solid #7c387c;
+    font-size: 14px;
+}
+
+/* Focus effect */
+.form.login input:focus,
+.form.login select:focus {
+    outline: none;
+    border-color: #1e90ff;
+}
+
+/* Remove ugly <br> spacing effect */
+.form.login br {
+    display: none;
+}
+
+/* Optional submit button style (if you add one later) */
+.form.login button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #1e90ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form.login button:hover {
+    background: #187bcd;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.phone img {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background: #161f30;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.input-icon {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon img {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    width: 18px;
+    height: 18px;
+    transform: translateY(-50%);
+    opacity: 0.6;
+    pointer-events: none; /* click goes to input */
+}
+
+.input-icon input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* space for icon */
+    border-radius: 6px;
+    border: 1px solid #783070;
+    font-size: 14px;
+}
+
+/* focus effect */
+.input-icon input:focus {
+    outline: none;
+    border-color: #1e90ff;
+}
+button{
+    background-color: green;
+    border: #187bcd;
+    padding: 20px;
+}
+button:hover{
+
+    background-color:greenyellow;
+    color: violet;
+    border: none;
+     box-shadow: 0 4px 4px blueviolet;
+}
+.form.login input,
+.form.login select {
+  background-color: lightcyan;
+    color: #753e7a;
+    border: 1px solid #444;
+}
+
+.form.login input::placeholder {
+    color: #58214a;
+}
+
+.form.login input:focus,
+.form.login select:focus {
+    border-color: #1e90ff;
+    box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.4);
+}
+button {
+    background: linear-gradient(135deg, #1e90ff, #125fa3);
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #125fa3, #0b3d66);
+}
+.input-icon img {
+    filter: invert(1);
+    opacity: 0.8;
+}
+
+
+
+    </style>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>   <div class="container">
+    <h1> MY FUTURE DREAM COMPANY LTD </h1>
+    
+    <div class="companyof">
+      <nav>
+        <div class="heaher"> 
+         <h2 class="heading"> SERVICES WE PROVIDE </h2>     
+    <a href="#Home">HOME </a>        
+    <a href="Software.html">Software services</a>
+    <a href="Electronic.html">Electronic services</a>
+    <a href="Machine.html">Mechanic services</a>
+    <a href="Employees.html">Employees involved</a>
+  
+    </div>
+  </nav>
+   </div>
+   
+   <section id="Home">
+    <h3 class="thishead">GET SERVICES YOU WISH.</h3>
+   <div class="image">
+  <header>Softwares services</header>
+    <img  style="border-radius: 40px;"  src="software.png" alt="softwares">
+    
+    <header>Electronics services</header>
+    <img  style="border-radius: 40px;"  src="computer.png" alt="computer">
+    <header> Mechanics services</header>
+    <img  style="border-radius: 40px;"  src="electronic.png" alt="electronics">
+  </div> 
+     <br>
+  <br>
+  <div class="form login">
+    <form action="#" method="POST">
+        <h4>LOGIN TO GET HELP</h4>
+        <fieldset><legend>Personal details</legend>
+     <label for="fname">FirstName</label><input type="text" name="FirstName" id="fname" placeholder="write your fullname ..." required>
+     <br>
+    
+     <br>
+     <label for="email">Email</label><input type="text" name="Email" id="email" placeholder="forexample@gmail.com" pattern="[A-Z a-z]{8,30}">
+     </fieldset>
+     <br>
+     <fieldset>
+     <label>Province</label>
+     <select name="Province">
+        <option value="">...select province...</option>
+        <option value="Northern">Northern province</option>
+        <option value="Sourthern">Southern province</option>
+        <option value="Western">Western province</option>
+        <option value="Eastern">Eastern province</option>
+        <option value="Kigali city">Kigali city</option>
+     </select>
+     <br>
+     <label>District</label>
+     <select name="District">
+         <option value="">...Select district...</option>
+        <option value="Musanze">Musanze</option>
+        <option value="Gicumbi">Gicumbi</option>
+        <option value="Burera">Burera</option>
+        <option value="Gakenke">Gakenke</option>
+        <option value="Rulindo">Rulindo</option>
+        <option value="Bugesera">Bugesera</option>
+        <option value="Rwamagana">Rwamagana</option>
+        <option value="Nyagatare">Nyagatare</option>
+        <option value="Ngoma">Ngoma</option>
+        <option value="Kirehe">Kirehe</option>
+        <option value="Kayonza">Kayonza</option>
+        <option value="Gatsibo">Gatsibo</option>
+        <option value="Gasabo">Gasabo</option>
+        <option value="Nyarugenge">Nyarugenge</option>
+        <option value="Kicukiro">Kicukiro</option>
+        <option value="Kamonyi">Kamonyi</option>
+        <option value="Nyaruguru">Nyaruguru</option>
+        <option value="Muhanga">Muhanga</option>
+        <option value="Ruhango">Ruhango</option>
+        <option value="Huye">Huye</option>
+        <option value="Nyamagabe">Nyamagabe</option>
+        <option value="Nyanza">Nyanza</option>
+        <option value="Gisagara">Gisagara</option>
+        <option value="Rusizi">Rusizi</option>
+        <option value="Rubavu">Rubavu</option>
+        <option value="Nyabihu">Nyabihu</option>
+        <option value="Nyamasheke">Nyamasheke</option>
+        <option value="Rutsiro">Rutsiro</option>
+        <option value="Ngororero">Ngororero</option>
+        <option value="Karongi">Karongi</option>
+     </select>
+     </fieldset>
+
+     <br>
+     <fieldset>
+     <label for="sector">sector</label><input type="text" name="sector" id="sector" placeholder="enter your sector location">
+     <br>
+     <label for="cell">cell</label><input type="text" name="cell" id="cell" placeholder="enter your cell">
+     <br>
+     <br>
+     <label for="Phonenum">Phonenumber</label><input type="number" name="Phonenumber" id="Phonenum" placeholder="+25....">
+    <div class="phone"><img src="phone.jpg" alt="phone symbol"></div>
+    </fieldset>
+     <button type="submit" value="login">Create an Account</button>
+    </form>
+    </div>
+
+     <br>
+    <h5 style="font-size: 60px; font-family: 'Times New Roman', Times, serif;"> For more information you can approach us via:</h5>
+     <div class="images">
+      <header>Instagram: called 'CODEtech.FC'</header>
+        <img style="border-radius: 30px;" src="Instargramlogo.jpg" alt="Instargram">
+        <header> </header>
+        <header>Facebook</header>
+        <img  style="border-radius: 40px;" src="Facebook.jpg" alt="facebook">
+      </div>
+      <div class="images">
+        <header>Watsapp// 0725881801</header>
+        <img style="border-radius: 30px;" src="WhatsAppChannel.jpg" alt=" wats">
+        <br>
+        
+        <header>@CODEtech!</header>
+        <img style="border-radius: 30px;" src="download(1).jpg" alt="anotherchnnel">
+        
+      </div>
+    </section>
+    <div class="social_media">
+            <a href="#" class="fab fa-whatsapp"></a>
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-telegram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <br>
+        <br>
+    <section>
+    <footer>WELCOME TO CODEtech COMPANY!</footer>
+    <footer>@ My Future Dream Company Ltd|| All Rights Reserved!</footer>
+    </section>
+    </div>
+</body>
+<!-- 
+git init
+git add .
+git remote add origin https://github.com/melaniendikubwimana-cloud/CodeTech
+git commit -m "Initial commit"
+git push -u origin main
+-->
+
+<!--My first Gitlab practical -->
+</html>
