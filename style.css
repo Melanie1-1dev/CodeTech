@@ -134,12 +134,12 @@ nav a:hover{
 .images{
   margin-top: 90px;
   display: flex;
-  flex-direction: row;
   width: 250px;
   height: 200px;
-  gap: 80px;
+  gap: 30px;
   position: sticky;
   z-index: -1;
+  float: left;
   }
   .images:hover{
     box-shadow: 4px yellowgreen;
