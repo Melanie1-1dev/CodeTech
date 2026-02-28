@@ -3,6 +3,13 @@
   padding: 0;
   position: relative;
 }
+html,body{
+  overflow-x: hidden;
+}
+hr{
+  border: 2px solid white;
+  width: 260%;
+}
 .container{
   width: 1000px;
   max-width: 1200px;
@@ -36,6 +43,13 @@ body{
   display: flex;
   flex-direction: column;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',"Geneva", 'Verdana', 'sans-serif';
+}
+.companyof h3{
+  color: white;
+  border: 4px solid white;
+  width: 700px;
+  border-radius: 20px;
+
 }
 .heaher{
   display: flex;
@@ -131,9 +145,6 @@ nav a:hover{
 
 }
 
- /* social medias :-moz-user-disabled*/
-
-
  .gallery{
   display: flex;
   flex-direction: row;
@@ -153,16 +164,7 @@ padding-top: 20px;
 text-align: center;
 
 }
-/*
-.visiion-mission:hover{
- background-color: aqua;
- color: black;
- transform: scale(2.1);
- box-shadow: 0 12px 20px rgb(113, 113, 2);
-}
-*/
 
-/* Employees page css*/
 
 .table{
   padding: 70px;
@@ -192,9 +194,5 @@ table, th, td {
 }
 
 
-.social_media{
-  font-size: 30px;
-    color: aliceblue;
-    margin: 0 10px;
-    
-}
+
+
