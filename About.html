@@ -7,16 +7,20 @@
     <title>My Future Company Ltd</title>
      <style>
 
-
+body{
+    background: rgb(38, 38, 56);
+}
 /* FORM LOGIN CONTAINER */
+
 .form.login {
-    width: 100%;
-    max-width: 450px;
+    width: 60%;
+    height: 80%;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 10px 400px rgb(128, 0, 117);
-    margin-left: 400PX;
     margin-bottom: 20px;
+    background: transparent;
+    justify-content: center;
 
 }
 
@@ -24,7 +28,7 @@
 .form.login h3 {
     text-align: center;
     margin-bottom: 20px;
-    color: #510250;
+    color: #fff;
 }
 
 /* Labels */
@@ -43,6 +47,7 @@
     border-radius: 6px;
     border: 50px solid #7c387c;
     font-size: 14px;
+    z-index: -2;
 }
 
 /* Focus effect */
@@ -110,6 +115,7 @@
     padding: 10px 10px 10px 40px; /* space for icon */
     border-radius: 6px;
     border: 1px solid #783070;
+    z-index: -2;
     font-size: 14px;
 }
 
@@ -166,13 +172,14 @@ button:hover {
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
-<body>   <div class="container">
+<body>   
+    <div class="container">
     <h1> MY FUTURE DREAM COMPANY LTD </h1>
     
     <div class="companyof">
       <nav>
         <div class="heaher"> 
-         <h2 class="heading"> SERVICES WE PROVIDE </h2>     
+         <h2 class="heading"> SERVICES </h2>     
     <a href="#Home">HOME </a>        
     <a href="Software.html">Software services</a>
     <a href="Electronic.html">Electronic services</a>
@@ -181,7 +188,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   
     </div>
   </nav>
-    <h3 class="thishead">GET SERVICES YOU WISH.</h3>
+  <div class="thishead">
+    <h3>GET SERVICES YOU WISH.</h3>
+
+  </div>
     <div class="form login">
     <form action="#" method="POST">
         <h4>LOGIN TO GET HELP</h4>
@@ -256,7 +266,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
    </div>   
     <hr>
+<footer>
+ 
+      <div class="footer-container">
 
+      <p> OUR SERVICES CAN'T BE FOUND ANYWHERE!</p>
+
+      <p>@ My Future Dream Company Ltd|| All Rights Reserved!</p>
+      </div>
+
+    </footer>
    
     </div>
 </body>
