@@ -223,17 +223,28 @@ text-align: center;
 
 }
 
+.employee h3{
+  margin: 40px 0px 50px 60px;
+  color: rgb(98, 98, 218);
+  border: none;
+  transition: 0.3s;
+}
+.employee h3:hover{
+  color: white;
+  transform: translateY(15px);
 
+}
 .table{
-  padding: 70px;
+  padding: 50px;
   text-align: center;
   border: 5px #0a3d62;
   border-color: #0a3d62;
   border-style: groove;
   border-collapse: collapse;
+  margin-top: 10%;
 }
 th{
-  padding: 40px;
+  padding: 15px;
   text-align: left;
 }
 th:hover{
@@ -241,7 +252,9 @@ background-color:  rgb(85, 84, 83);
 color: whitesmoke;
 }
 table, th, td {
-  border: 3px solid rgb(70, 110, 9);
+
+  font-size: large;
+  border: 1px solid rgb(70, 110, 9);
   border-collapse: collapse;
 }
 
