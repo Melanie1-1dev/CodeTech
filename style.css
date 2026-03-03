@@ -227,6 +227,7 @@ text-align: center;
   margin: 40px 0px 50px 60px;
   color: rgb(98, 98, 218);
   border: none;
+  text-align: center;
   transition: 0.3s;
 }
 .employee h3:hover{
