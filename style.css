@@ -120,6 +120,12 @@ a:hover{
           font-size: small;
           margin-left: 250px;
           text-shadow: 2px 3px 4px lightblue;
+          transition: 0.5s ease-in;
+        }
+        .footer-container p:hover{
+          color: white;
+          text-shadow: 2px 3px 4px rgb(12, 110, 143);
+          transform: translateX(20px);
         }
 * {
   margin: 0;
